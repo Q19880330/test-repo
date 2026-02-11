@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+.container {
+  text-align: left;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.btn {
+  margin: 10px 3px;
+}
+li a {
+  color: #222;
+  text-decoration: none;
+  padding: 10px;
+}
+.d-flex {
+  align-items: center;
+}
+
+.main h2 {
+  padding-bottom: 30px;
+}
+
+.mainlist {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.mainlist > div.card {
+  width: 23.5%;
+  margin-bottom: 30px;
+}
+
+.listUl {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 0;
+}
+.listUl li {
+  border: 1px solid #ccc;
+  padding: 16px 20px;
+  width: 240px ;
+}
+
+.makerDiv, .modelDiv {
+  border: 1px solid #ccc;
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  padding : 20px 0 ;
+  display: none;
+}
+.makerDiv li, .modelDiv li{
+  padding-bottom: 10px;
+  width: 23%;
+}
+.App a {
+  color: #222;
+  text-decoration: none;
+  padding: 10px;
+}
+.category{
+  position: relative;
+}
+.view {
+  display: block;
+}
+.category h4 {
+  padding-bottom: 30px;
+}
+.makerDiv ul, .modelDiv ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+

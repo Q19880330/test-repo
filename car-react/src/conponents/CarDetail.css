@@ -1,0 +1,84 @@
+* { margin: 0; padding: 0;}
+.detail {
+    display: flex;
+    height: 540px;
+}
+h3 {
+    padding: 40px 0 20px;
+}
+.price {
+    padding: 10px;
+}
+.detailView {
+    width: 60%;
+    padding-right: 30px;
+}
+.detaildesc {
+    background-color: #eee;
+    padding: 40px 30px;
+}
+.carInfo ul {
+    display: flex;
+    justify-content: center;
+}
+.carInfo ul li {
+    padding: 4px 20px;
+}
+.carInfo ul li:not(:last-child){
+    border-right: 1px solid #ccc;
+}
+.carInfo div span {
+    color: red;
+    font-size: 24px;
+}
+.detailInfo {
+    width: 40%;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+li {
+    list-style: none;
+}
+.detailView ul {
+    display: flex;
+    justify-content: flex-start;
+}
+.detailView ul li {
+    width: 20%;
+}
+.carInfo {
+    text-align: center;
+}
+.detail ul { padding: 0;}
+.carTitle {
+    color: #0d6efd;
+    font-weight: bolder;
+    width: 80%;
+    margin: 10px auto;
+}
+.dealer {
+    width: 80%;
+    margin: 10px auto 0;
+    border-top:1px solid #222;
+}
+.dealer td {
+    padding: 6px;
+    border-top: 1px solid #ddd;
+}
+.dealer table {
+    border-bottom: 1px solid #222;
+}
+.dealer td:nth-child(1) {
+    width: 30%;
+}
+.viewImg {
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+.viewImg img {
+    position:  absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
